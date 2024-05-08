@@ -6,7 +6,7 @@ export class Dashboard extends Component {
         <main className="flex-1 bg-gray-100 p-8">
             <h2 className="text-2xl font-semibold mb-4">Dashboard</h2>
             <div className="container mx-auto">
-              <h1 className="text-3xl font-bold mb-4">Sample Table</h1>
+              <h1 className="text-3xl font-bold mb-4">User</h1>
               <table className="min-w-full">
                 <thead>
                   <tr>
@@ -18,13 +18,13 @@ export class Dashboard extends Component {
                 <tbody>
                   <tr>
                     <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300">1</td>
-                    <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300">John Doe</td>
-                    <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300">john.doe@example.com</td>
+                    <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300">Xyrelle</td>
+                    <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300">xyrelle@gmail.com</td>
                   </tr>
                   <tr>
                     <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300">2</td>
-                    <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300">Jane Smith</td>
-                    <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300">jane.smith@example.com</td>
+                    <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300">Bo-bo-boy</td>
+                    <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300">rodeljones@gmail.com</td>
                   </tr>
                   {/* Add more rows as needed */}
                 </tbody>
